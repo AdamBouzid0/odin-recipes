@@ -4,12 +4,14 @@ This is my first project from [The Odin Project](https://www.theodinproject.com/
 
 ## Project Overview
 
-This project is a basic recipe website that demonstrates fundamental HTML concepts including:
+This project is a basic recipe website that demonstrates fundamental HTML and CSS concepts including:
 - HTML structure and semantic elements
 - Creating links between pages
 - Working with lists (ordered and unordered)
 - Adding images
 - Text formatting and organization
+- CSS styling and layout
+- Responsive design basics
 
 ## What I'm Building
 
@@ -28,10 +30,14 @@ A simple recipe website that includes:
 - **Content Organization**: Using headings, paragraphs, and lists effectively
 - **Image Integration**: Adding and organizing images
 - **File Organization**: Managing multiple HTML files in a project structure
+- **CSS Styling**: Basic styling with colors, fonts, layout, and hover effects
+- **CSS Selectors**: Understanding element, class, and child selectors
+- **Responsive Design**: Making images and layout adapt to different screen sizes
 
 ## Technologies Used
 
 - HTML5
+- CSS3
 - Basic file structure and organization
 
 ## Project Structure
@@ -39,14 +45,19 @@ A simple recipe website that includes:
 ```
 odin-recipes/
 ├── index.html          # Main homepage with links to recipes
+├── styles.css          # CSS stylesheet for all pages
 ├── recipes/            # Directory containing individual recipe pages
-│   ├── recipe1.html
-│   ├── recipe2.html
-│   └── recipe3.html
+│   ├── chocolate-chip-cookies.html
+│   ├── grilled-cheese-sandwich.html
+│   ├── instant-ramen-upgrade.html
+│   ├── scrambled-eggs.html
+│   └── spaghetti-aglio-e-olio.html
 └── images/            # Directory for recipe images
-    ├── recipe1.jpg
-    ├── recipe2.jpg
-    └── recipe3.jpg
+    ├── chocolate-chip-cookies.jpg
+    ├── grilled-cheese-sandwich.jpg
+    ├── instant-ramen-upgrade.jpg
+    ├── scrambled-eggs.jpg
+    └── spaghetti-aglio-e-olio.jpg
 ```
 
 ## Learning Goals
@@ -61,10 +72,10 @@ Through this project, I'm aiming to:
 ## Future Enhancements
 
 As I progress through The Odin Project, I plan to revisit this project and add:
-- CSS styling for better visual presentation
-- Responsive design for mobile devices
+- More advanced CSS features and animations
 - JavaScript interactivity
 - Better accessibility features
+- Mobile-first responsive design
 
 ---
 
